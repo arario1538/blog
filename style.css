@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* 스타일 기본 설정 */
+body {
+    font-family: 'AppleSDGothicNeo', Pretendard-Regular, sans-serif;
+    font-size: 1em;
+    line-height: 1.25;
+    color: #555;
+}
+
+header {
+    border-bottom: 1px solid #eee;
+    background-color: #f8f8f8;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 800;
+    font-size: 1.75em;
+    margin: 0;
+    color: #333;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #777;
+    font-size: 1em;
+}
+
+/* 추가적인 콘텐츠 스타일 */
+.post-item {
+    margin-bottom: 20px;
+}
+
+.post-item .title {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.post-item .excerpt {
+    font-size: 1em;
+    color: #777;
+}
+
+footer {
+    border-top: 1px solid #eee;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin-top: 50px;
+}
